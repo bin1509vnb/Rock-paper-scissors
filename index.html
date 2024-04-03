@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+		content="width=device-width, 
+				initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>Rock Paper Scissor</title>
+</head>
+<body>
+	<section class="game">
+		<div class="title">Rock - Paper - Scissors</div>
+        <br>
+		<div class="move">Select your move</div>
+
+		<div class="movesleft">Moves Left: 5 </div> <!--Numbers of moves left before the game end -->
+        <br><br>
+
+		<!--Display the game score of player and computer -->
+		<div class="score"> 
+			<div class="playerScore">
+				<h2>Player</h2>
+				<p class="p-count count">0</p>
+
+			</div>	 
+			<div class="computerScore">
+				<h2>Computer</h2>
+				<p class="c-count count">0</p>
+
+			</div>
+		</div>
+	
+		<!--Create button of rock, paper, scissors-->
+		<div class="options">
+			<button class="rock">Rock</button> <!-- I want to use this 👊 emoji instead of plain text; but for some reason, it does not work-->
+			<button class="paper">Paper</button> <!-- 🖐 This for the paper. Same issue happened where the button did not regester -->
+			<button class="scissor">Scissors</button> <!--✌️ This for the scissor-->
+		</div>
+		
+		
+		<div class="result"></div> <!--Display the final result of the game, either "you win" or "you lose" -->
+		
+
+		<button class="reload"></button> <!--Restart game button when game end -->
+
+	</section>
+
+	<script src="script.js"></script>
+</body>
+</html>
